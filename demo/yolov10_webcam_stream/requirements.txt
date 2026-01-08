@@ -4,3 +4,5 @@ twilio
 gradio>=5.0,<6.0
 gradio-webrtc==0.0.1
 onnxruntime-gpu
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
